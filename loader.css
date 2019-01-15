@@ -1,0 +1,63 @@
+/*Loader*/
+.loader-black{
+	border-color: rgba(0,0,0,.3);
+	border-top-color: black;
+}
+
+.loader-white{
+	border-color: rgba(255,255,255,.3);
+	border-top-color: white;
+}
+
+.large{
+	width: 70px;
+	height: 70px;
+}
+
+.medium{
+	width: 50px;
+	height: 50px;
+}
+
+.small{
+	width: 40px;
+	height: 40px;
+}
+
+.bolder{
+	border-width: 20px;
+}
+
+.bold{
+	border-width: 15px;
+}
+
+.regular{
+	border-width: 10px;
+}
+
+.light{
+	border-width: 5px;
+}
+
+.thin{
+	border-width: 2px;
+}
+
+.loader-container{
+	padding: 10px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-end;
+	z-index: 3 !important;
+}
+
+.loader{
+	border-style: solid;
+	background-color: transparent;
+	border-radius: 100%;
+	z-index: 3 !important;
+	animation: spin ease 1s infinite, fadeIn ease .5s;
+}
